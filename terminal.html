@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Night Watch - Project Terminal</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body class="theme-lab">
+	<header>
+		<small><a href="projects">back to projects</a></small>
+		<small>Open source portable music player</small>
+		<small>2021</small>
+	</header>
+	<aside>
+		<a href="projects">
+			<svg width="27" height="46" viewBox="0 0 27 46" fill="none" xmlns="http://www.w3.org/2000/svg" class="hidden-mobile">
+				<path d="M26 0.999998L2 23L26 45" stroke-width="2"/>
+			</svg>
+			<svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg" class="hidden-desktop">
+				<path d="M1 1L31 30M31 1L1 30" stroke-width="2"/>
+			</svg>
+		</a>
+		<hgroup>
+			<h2>Project Terminal <span>(2020)</span></h2>
+			<small>Open source portable music player</small>
+		</hgroup>
+	</aside>
+	<main>
+		<article class="tall">
+			<h1>Project<br>Terminal</h1>
+			<section data-column="left-small">
+				<p>Frustrated by the lack of options for a simple, portable audio player, I decided to design my own, open source, and based on the Raspberry Pi Zero W. The project is still a work in progress, and I maintain <a href="https://git.sr.ht/~thenightwatch/terminal" target="_blank">a git repository</a> of the project files not quite user friendly for the moment but I'll work on proper documentation soon.</p>
+				<p>It is my first attempt at designing a physical product, and I am learning a lot in the process. It is an interesting exercise, with its own problem space, different from that of graphic design. One of the fascinating aspects of it is the duality between internal hardware and its external interface. Each choice made in one affecting the other. This requires a a flexible iterative workflow and a lot of patience, making the task challenging but rewarding. After some trial and error, it became clear that a purely bottom up approach would be too limiting. Simply making a list of the ideal internal components and design around that made for quite a boring and unattractive design.</p>
+				<figure data-column="right" data-row="full" data-align="center">
+					<img src="images/terminal-device.svg" alt="" class="slide-left">
+				</figure>
+			</section>
+			<section data-column="right-small">
+				<p>I quickly decided to make cardboard models for each design iteration. It might sound obvious, but it was a major shift in my process. Suddenly, the buttons naturally found their place on the front plate, I rethought the way I had planned the volume controls, and I got, quite literally, a better feel for how the device should respond to interaction.</p>
+				<p>This top down approach helped a lot for the buttons layout, but in a similar way, hardware can also influence the product’s external design in a big way. Browsing electronic components catalogs offers endless ways of solving a particular problem and avoid others entirely.</p>
+				<figure data-column="left" data-row="full" data-align="center" class="zoomable">
+					<picture>
+						<source type="image/webp" data-srcset="images/terminal-2.webp">
+						<source type="image/jpg" data-srcset="images/terminal-2.jpg">
+						<img data-src="images/terminal-2.jpg" alt="" class="vignette">
+					</picture>
+				</figure>
+			</section>
+			<section data-column="full">
+				<figure class="static zoomable icon-outside">
+					<img src="images/terminal-plans.svg" alt="plans">
+					<figcaption class="fixed">Assembly of the device<figcaption>
+				</figure>
+			</section>
+			<section data-column="left-small">
+				<p>When I discovered the existence of affordable round OLED displays, it opened up more design possibilities. I was able to make the front plate of the device symmetrical. Not only does it look cool, but it makes it possible to use the device in any orientation, simply by rotating the UI in software, which was a great step towards better accesibility.</p>
+				<p class="order-3">The same pattern happened again with the volume control interface. I considered many different options, but after a lot of research on online electronics shops, I ended up going with a potentiometer switch, similar to those found on physical synthetisers. It was a great way, if a bit unconventional on this type of device, to allow for a precise and organic feel when adjusting volume. Apple came to the same conclusion for their headphones, which they unveiled a few months later.</p>
+				<p class="order-3">The last step before the production of a small number of test units is figuring out which option to go with for the casing. I will keep this page and the git repo updated with future progress.</p>
+				<figure data-column="right" data-row="full" data-align="center" class="order-2 zoomable icon-black">
+					<video loop autoplay muted class="vignette">
+		        		<source data-src="videos/terminal-assembly.webm" type="video/webm">
+		        		<source data-src="videos/terminal-assembly.mp4" type="video/mp4">
+		    		</video>
+				</figure>
+			</section>
+		</article>
+	</main>
+	<footer>
+		<a href="space-forge">next project</a>
+	</footer>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

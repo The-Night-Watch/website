@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Night Watch - The Janitor</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body class="theme-mirage">
+	<header>
+		<small><a href="projects">back to projects</a></small>
+		<small>Level Design, Dialogues</small>
+		<small>2024</small>
+	</header>
+	<aside>
+		<a href="projects">
+			<svg width="27" height="46" viewBox="0 0 27 46" fill="none" xmlns="http://www.w3.org/2000/svg" class="hidden-mobile">
+				<path d="M26 0.999998L2 23L26 45" stroke-width="2"/>
+			</svg>
+			<svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg" class="hidden-desktop">
+				<path d="M1 1L31 30M31 1L1 30" stroke-width="2"/>
+			</svg>
+		</a>
+		<hgroup>
+			<h2>The Janitor <span>(2024)</span></h2>
+			<small>Level Design, Dialogues</small>
+		</hgroup>
+	</aside>
+	<main>
+		<article>
+			<h1>The Janitor</h1>
+
+			<section data-column="left-small">
+				<p>The Janitor is a short, story-driven game I created with <a href="https://jakebaxter.itch.io/" target="_blank">a friend</a> during the second S&box game jam. The game jam lasted a month and I was responsible for creating the art, story, dialogues, and sound design of the game, while my friend took care of the programming. We were also join by another friend who did the voice acting.</p>
+				<p>You play as a janitor on his first night-shift in a vacant underground research facility owned by the Mirage Industries mining company, cleaning the toxic remains of past experiments left by the scientists crew. The player is guided by the voice of Alex, his manager, who instructs him via a communication device throughout the game.</p>
+				<figure data-column="full-edge" data-row="full-edge" data-align="cover">
+					<picture>
+						<source type="image/webp" data-srcset="images/janitor-1.webp">
+						<source type="image/png" data-srcset="images/janitor-1.png">
+						<img data-src="images/janitor-1.png" alt="">
+					</picture>
+				</figure>
+			</section>
+
+			<section data-column="right-small">
+				<p>Our goal for this project was to see how close we could get to creating a full-fledged story-driven game experience in such limited time, complete with a sizeable map, a narrative arc, voice acting, character development, and a somewhat varied gameplay experience, all using an engine and tools we had never used before. Those tools were comprised of S&box, an engine that was still in development at the time, Hammer, Valve's map modeling software (S&box is built on top of Valve's Source engine), and Quixel Mixer, none of which I had used before.</p>
+				<p class="order-3">Considering the scope of the game, we had to make some compromises. Most obvious of which was the gameplay, which is barebones to say the least. We needed something to drive the story, and after a few failed attempts at finding fun mechanics in the limited time we had, we decided to go with a simple, physics-based, ball-throwing mechanic. The mechanic is basic and not much fun, but our choice was to focus on what happens around the puzzles. We approached it as a proof of concept.</p>
+				<p class="order-4">The project was very ambitious and even with the amount of work we put in, the game still has a lot of rough edges. What made it challenging was that we had never used S&box or Hammer before. I am proficient in Blender, but the Hammer workflow, both in texturing and lighting, is very different and it took me weeks to get decent results.</p>
+				<figure data-column="left" data-row="full" data-align="center" class="order-2 zoomable">
+					<picture>
+						<source type="image/webp" data-srcset="images/janitor-anomaly.webp">
+						<source type="image/png" data-srcset="images/janitor-anomaly.png">
+						<img class="vignette" data-src="images/janitor-anomaly.png" alt="">
+					</picture>
+				</figure>
+			</section>
+
+			<section data-column="center">
+				<figure class="static zoomable">
+					<img src="images/janitor-logo.png" alt="">
+		    		<figcaption class="fixed">The Mirage Industries logo</figcaption>
+				</figure>
+			</section>
+
+			<section data-column="left-small">
+				<p>The part I enjoyed the most, and dedicated the most time to, was the level design. It was important for me to make the research facility a central part of the experience and make it feel real and lived-in. The facility is built underground and houses a network of corridors and test chambers built around a huge vertical mine excavation.</p>
+				<p> To truly communicate the crushing scale of the place, I made sure to design every scene to scale. The facility was designed as a single master map in Hammer, which was later divided into thirteen individual scenes that are loaded on demand from the engine. The map features 18,565 m2 of walkable area (around 200,000 square feet).</p>
+				<figure data-column="right" data-row="full" data-align="center" class="order-2 zoomable">
+					<picture>
+						<source type="image/webp" data-srcset="images/janitor-shaft.webp">
+						<source type="image/png" data-srcset="images/janitor-shaft.png">
+						<img class="vignette" data-src="images/janitor-shaft.png" alt="">
+					</picture>
+				</figure>
+			</section>
+
+			<section data-column="full" class="spaced">
+				<figure class="static overflow zoomable">
+					<picture>
+						<source type="image/webp" data-srcset="images/janitor-map.webp">
+						<source type="image/png" data-srcset="images/janitor-map.png">
+						<img data-src="images/janitor-map.png" alt="" class="full-width">
+					</picture>
+					<figcaption>The game's master map.<figcaption>
+				</figure>
+			</section>
+
+			<section data-column="right-small">
+				<p>Throughout the game, I tried to show the facility's architecture from different angles, alternating between the claustrophobic corridors and occasional walks across the rusty catwalks bordering the mine, in a progressive spiral down into the complex's lowest floors of freshly mined tunnels.</p>
+				<p>I also wanted to emphasize the divide between the different departments of the company. You play as a member of the maintenance team, and most of your environment consists of dimly lit, rundown corridors. As the story progresses, you get glimpses at the contrasting science wing, a much more high-tech and clean environment of imposing, brightly lit concrete architecture. This theme of class divide is also developed in the story.</p>
+				<p>We get to briefly visit parts of the I.T. department, intended as a middle ground in the company's class hierarchy, though I didn’t have much time to develop that area. It was a lot of fun to use texturing and lighting to create those contrasting moods.</p>
+				<figure data-column="left" data-row="full" data-align="center" class="order-2 zoomable">
+					<picture>
+						<source type="image/webp" data-srcset="images/janitor-cave.webp">
+						<source type="image/png" data-srcset="images/janitor-cave.png">
+						<img class="vignette" data-src="images/janitor-cave.png" alt="">
+					</picture>
+				</figure>
+			</section>
+
+			<section data-column="left-small">
+				<p>With a month to make an entire a game, we had to plan precisely. To create such a large map in a limited time, I had to adopt a modular approach.</p>
+				<figure data-column="right" data-row="full" data-align="center" class="order-2 zoomable">
+					<picture>
+						<source type="image/webp" data-srcset="images/janitor-module.webp">
+						<source type="image/png" data-srcset="images/janitor-module.png">
+						<img class="vignette" data-src="images/janitor-module.png" alt="">
+					</picture>
+				</figure>
+			</section>
+
+			<section data-column="full" class="spaced">
+				<figure class="static overflow zoomable">
+					<picture>
+						<source type="image/webp" data-srcset="images/janitor-modules.webp">
+						<source type="image/png" data-srcset="images/janitor-modules.png">
+						<img data-src="images/janitor-modules.png" alt="" class="full-width">
+					</picture>
+				</figure>
+			</section>
+
+			<section data-column="left-small">
+				<p>Unfortunately I didn't have a lot of time to spend on modelling custom props for the game. One notable exception was the magnetic gun used by the player to manipulate the metal spheres.</p>
+				<p>I mainly used plastic materials for it to make it look less weapon-like and closer to a tool. If I had more time, I would have added a big battery strapped on top to make it look heavy and low-tech, as the dialogue hints at the device being an older, clunky model.</p>
+				<p>The model was first designed in Solvespace, details and shading were done in Blender, and the sticker texture was made in Figma.</p>
+				<figure data-column="right" data-row="full" data-align="center" class="order-2 zoomable">
+					<picture>
+						<source type="image/webp" data-srcset="images/janitor-gun-back.webp">
+						<source type="image/png" data-srcset="images/janitor-gun-back.png">
+						<img class="vignette" data-src="images/janitor-gun-back.png" alt="">
+					</picture>
+				</figure>
+			</section>
+
+			<section data-column="full">
+				<figure class="static zoomable" data-column="full" data-row="full" data-align="center">
+					<picture>
+						<source type="image/webp" data-srcset="images/janitor-gun-side.webp">
+						<source type="image/png" data-srcset="images/janitor-gun-side.png">
+						<img data-src="images/janitor-gun-side.png" alt="">
+					</picture>
+		    		<figcaption class="fixed">Side view of the magnetic gun.</figcaption>
+				</figure>
+			</section>
+
+			<section data-column="full">
+				<figure class="static zoomable">
+					<picture>
+						<source type="image/webp" data-srcset="images/janitor-gun-sticker.webp">
+						<source type="image/png" data-srcset="images/janitor-gun-sticker.png">
+						<img class="vignette" data-src="images/janitor-gun-sticker.png" alt="">
+					</picture>
+					<figcaption>Lore-accurate sticker on the magnetic gun.<figcaption>
+				</figure>
+			</section>
+
+			<section data-column="full" data-dark="true">
+				<figure class="static">
+					<video preload="none" poster="images/orion-video-cover.jpg" class="vignette">
+		        			<source data-src="videos/orion-video.webm" type="video/webm">
+		        			<source data-src="videos/orion-video.mp4" type="video/mp4">
+		    		</video>
+		    		<figcaption>A work in progress of the third chapter.</figcaption>
+				</figure>
+			</section>
+		</article>
+	</main>
+	<footer>
+		<a href="wikihouse">next project</a>
+	</footer>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
